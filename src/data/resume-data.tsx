@@ -1,23 +1,6 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
 import TCSLogo from "../images/logos/tcs.png";
 import XebiaLogo from "../images/logos/xebia.png";
 import TutreeLogo from "../images/logos/tutree.png";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -31,7 +14,7 @@ export const RESUME_DATA = {
     "Passionate Software Engineer with 4 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
   summary:
     "As a Backend Software Engineer, I have successfully completed multiple projects. Currently, I work mostly with Golang, Gin, REST and Databases(MySQL, Psql).",
-  avatarUrl: "",
+  avatarUrl: "https://github.com/amren1254/amren1254.github.io/blob/e9f8f745a2935a8d3c68963213ded9bd4ac76423/images/8FB00E08-93B2-4528-BD6F-7067FEB5BE0A.jpeg",
   personalWebsiteUrl: "https://amren1254.github.io",
   contact: {
     email: "y.amren00@gmail.com",
