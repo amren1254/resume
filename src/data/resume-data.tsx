@@ -1,6 +1,7 @@
 import TCSLogo from "../images/logos/tcs.png";
 import XebiaLogo from "../images/logos/xebia.png";
 import TutreeLogo from "../images/logos/tutree.png";
+import siemenslogo from "../images/logos/siemens.png"
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -8,13 +9,13 @@ import { XIcon } from "../components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Amrendra Yadav",
   initials: "AY",
-  location: "New Delhi, India",
-  locationLink: "https://www.google.com/maps/place/NewDelhi",
+  location: "Pune, India",
+  locationLink: "https://www.google.com/maps/place/Pune",
   about:
     "Passionate Software Engineer with 4 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
   summary:
     "As a Backend Software Engineer, I have successfully completed multiple projects. Currently, I work mostly with Golang, Gin, REST and Databases(MySQL, Psql).",
-  avatarUrl: "https://github.com/amren1254/amren1254.github.io/blob/e9f8f745a2935a8d3c68963213ded9bd4ac76423/images/8FB00E08-93B2-4528-BD6F-7067FEB5BE0A.jpeg",
+  avatarUrl: "https://avatars.githubusercontent.com/u/38122251?v=4",
   personalWebsiteUrl: "https://amren1254.github.io",
   contact: {
     email: "y.amren00@gmail.com",
@@ -58,6 +59,17 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Siemens Technology and Services Private Ltd.",
+      link: "https://siemens.com/",
+      badges: ["Present", "Full-Time"],
+      title: "Software Developer Engineer",
+      logo: siemenslogo,
+      start: "Jan/2024",
+      end: "Present",
+      description:
+        "Technologies: Golang, Gin, Docker, Grafana, Git",
+    },
     {
       company: "Xebia IT Infotech, Gurgaon",
       link: "https://xebia.com/apac/",
