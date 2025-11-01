@@ -2,6 +2,7 @@ import TCSLogo from "../images/logos/tcs.png";
 import XebiaLogo from "../images/logos/xebia.png";
 import TutreeLogo from "../images/logos/tutree.png";
 import siemenslogo from "../images/logos/siemens.png"
+import thoughtworksLogo from "../images/logos/tw.png"
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
@@ -12,9 +13,9 @@ export const RESUME_DATA = {
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/Pune",
   about:
-    "Passionate Software Engineer with 4 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
+    "Passionate Software Engineer with 6 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
   summary:
-    "As a Backend Software Engineer, I have successfully completed multiple projects. Currently, I work mostly with Golang, Gin, REST and Databases(MySQL, Psql).",
+    "As a Backend Software Engineer, I have successfully completed multiple projects. Currently, I work mostly with Golang, AWS, Terraform, Databases(MySQL, NoSQL).",
   avatarUrl: "https://avatars.githubusercontent.com/u/38122251?v=4",
   personalWebsiteUrl: "https://amren1254.github.io",
   contact: {
@@ -60,13 +61,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Thoughtworks",
+      link: "https://www.thoughtworks.com/",
+      badges: ["Present", "Full-Time"],
+      title: "Senior Consultant",
+      logo: thoughtworksLogo,
+      start: "Sep/2025",
+      end: "Present",
+      description:
+        "Technologies: Golang, AWS, Docker, Terraform",
+    },
+    {
       company: "Siemens Technology and Services Private Ltd.",
       link: "https://siemens.com/",
       badges: ["Present", "Full-Time"],
       title: "Software Developer Engineer",
       logo: siemenslogo,
       start: "Jan/2024",
-      end: "Present",
+      end: "Sep/2025",
       description:
         "Technologies: Golang, Gin, Docker, Grafana, Git",
     },
