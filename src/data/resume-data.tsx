@@ -5,7 +5,7 @@ import siemenslogo from "../images/logos/siemens.png"
 import thoughtworksLogo from "../images/logos/tw.png"
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
-import { XIcon } from "../components/icons/XIcon";
+import { XIcon } from "../components/icons/x-icon";
 
 export const RESUME_DATA = {
   name: "Amrendra Yadav",
