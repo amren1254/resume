@@ -3,9 +3,6 @@ import XebiaLogo from "../images/logos/xebia.png";
 import TutreeLogo from "../images/logos/tutree.png";
 import siemenslogo from "../images/logos/siemens.png"
 import thoughtworksLogo from "../images/logos/tw.png"
-import { GitHubIcon } from "../components/icons/GitHubIcon";
-import { LinkedInIcon } from "../components/icons/LinkedInIcon";
-import { XIcon } from "../components/icons/x-icon";
 
 export const RESUME_DATA = {
   name: "Amrendra Yadav",
@@ -13,9 +10,9 @@ export const RESUME_DATA = {
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/Pune",
   about:
-    "Passionate Software Engineer with 6 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
+    "Passionate software developer with 6 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications.",
   summary:
-    "As a Backend Software Engineer, I have successfully completed multiple projects. Currently, I work mostly with Golang, AWS, Terraform, Databases(MySQL, NoSQL).",
+    "Passionate software developer with 6 years of hands-on experience in designing, implementing, and maintaining scalable and efficient web applications. I care about team, code-quality and delivering high-quality software solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/38122251?v=4",
   personalWebsiteUrl: "https://amren1254.github.io",
   contact: {
@@ -25,17 +22,17 @@ export const RESUME_DATA = {
       {
         name: "GitHub",
         url: "https://github.com/amren1254",
-        icon: GitHubIcon,
+        icon: "github" as const,
       },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/amren1254/",
-        icon: LinkedInIcon,
+        icon: "linkedin" as const,
       },
       {
         name: "X",
         url: "https://x.com/i_am_amren",
-        icon: XIcon,
+        icon: "x" as const,
       },
     ],
   },
@@ -63,73 +60,77 @@ export const RESUME_DATA = {
     {
       company: "Thoughtworks",
       link: "https://www.thoughtworks.com/",
-      badges: ["Present", "Full-Time"],
-      title: "Senior Consultant",
+      badges: ["Pune, India"],
+      title: "Senior Consultant Developer",
       logo: thoughtworksLogo,
-      start: "Sep/2025",
+      start: "Sep 2025",
       end: "Present",
       description:
-        "Technologies: Golang, AWS, Docker, Terraform",
+        "Technologies: Go, Docker, AWS, AWS Devops, GIT, Terraform",
     },
     {
-      company: "Siemens Technology and Services Private Ltd.",
+      company: "Siemens",
       link: "https://siemens.com/",
-      badges: ["Present", "Full-Time"],
+      badges: ["Pune, India"],
       title: "Software Developer Engineer",
       logo: siemenslogo,
-      start: "Jan/2024",
-      end: "Sep/2025",
+      start: "Jan 2024",
+      end: "Sep 2025",
       description:
-        "Technologies: Golang, Gin, Docker, Grafana, Git",
+        "Added new features using microservices with technologies like golang, docker, aws providing solutions to business problems to the client in the Building sector. Learned new technologies like terraform, aws and helped in improving the process of development and deployment.\nProject: Geometry Service",
     },
     {
-      company: "Xebia IT Infotech, Gurgaon",
+      company: "Xebia",
       link: "https://xebia.com/apac/",
-      badges: ["Remote", "Full-Time"],
-      title: "Consultant",
+      badges: ["Gurgaon, India"],
+      title: "Consultant (Software Developer)",
       logo: XebiaLogo,
-      start: "Feb/2022",
-      end: "Oct/2023",
+      start: "Jan 2022",
+      end: "Oct 2023",
       description:
-        "Implemented new features, unit tests, developed a tool for analysis of daily healthy/unhealthy tx's.\
-        Improved security, optimized code.  Technologies: Golang, Gin, MySQL, Docker, Kafka, Grafana, Git",
+        "Worked and implemented projects involving technologies like golang, docker providing solutions to business problems to the client in the Banking sector. Introduced pair code-review to enhance code quality.\nProject: RMS(Risk Management Service)",
     },
     {
-      company: "TCS, Pune",
+      company: "TCS",
       link: "https://www.tcs.com/",
-      badges: ["Remote", "Full-Time"],
-      title: "Assistant System Engineer Trainee → System Engineer",
+      badges: ["Pune, India"],
+      title: "System Engineer",
       logo: TCSLogo,
-      start: "Jan/2020",
-      end: "Jan/2022",
+      start: "Jan 2020",
+      end: "Jan 2022",
       description:
-        "Created desktop app and web apps. Designed architecture on MS Azure.\
-         Technologies: Golang, C#, MySQL, Docker, MS Azure",
+        "Worked and implemented projects in the Automotive sector providing solutions to clients. Developed desktop & web applications, Automated test applications for clients. Design architecture for web apps using Azure components. Other responsibilities include building RESTful API's for client applications using gorilla/mux, gin/gonic and writing algorithms for calculation of Vehicle ECU’s data.\nProjects: AEMS Tool, DWA (Denso Web Application)",
     },
     {
-      company: "Tutree Inc. , Noida",
-      link: "https://tutree-india-technologies-limited.business.site/",
-      badges: ["Intern"],
-      title: "Software Developer",
+      company: "Tutree",
+      link: "https://tutree.com/",
+      badges: ["Noida, India"],
+      title: "Golang Developer Intern",
       logo: TutreeLogo,
-      start: "Aug/2019",
-      end: "Nov/2019",
+      start: "Aug 2019",
+      end: "Dec 2019",
       description:
-        "My Contribution here is to make API’s using gorilla/mux, use data-structure and algorithms\
-        and optimize codebase, write unit test cases and bug fixing",
+        "GO, Python, RUST to maintain web and software Installed, configured, and maintained web and Machine Learning Model Experience with Apache, Nginx, Docker.\nProject: Tutree_v2",
     },
   ],
   skills: [
     "Golang",
-    "MS Azure Cloud",
-    "DSA",
-    "Python/C#",
-    "Microservices",
+    "Python",
+    "C#",
+    "Graphql",
     "Docker",
-    "MySQL/PostgreSQL",
-    "Gin/gorilla-mux",
-    "HTML/CSS",
-    "Git"
+    "Gorilla/Mux",
+    "MySQL",
+    "PostgreSQL",
+    "NoSQL (DynamoDB)",
+    "AWS",
+    "MS Azure",
+    "Terraform",
+    "DevOps",
+    "Linux",
+    "Git",
+    "TDD",
+    "Clean Code",
   ],
   projects: [
     {

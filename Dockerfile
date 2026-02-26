@@ -1,9 +1,9 @@
-FROM node:22.2.0-slim as BUILD_STAGE
+FROM node:22-slim AS build
 
 WORKDIR /app
 
 # Install pnpm
-RUN npm install -g pnpm@8
+RUN npm install -g pnpm@latest
 
 COPY package.json pnpm-lock.yaml ./
 
@@ -13,18 +13,18 @@ COPY . .
 
 RUN pnpm build
 
-FROM node:alpine
+# --- Production stage ---
+FROM node:22-slim AS runner
 
 WORKDIR /app
 
-# Install pnpm in production stage
-RUN npm install -g pnpm@8
+ENV NODE_ENV=production
 
-COPY --from=BUILD_STAGE /app/package.json ./package.json
-COPY --from=BUILD_STAGE /app/node_modules ./node_modules
-COPY --from=BUILD_STAGE /app/.next ./.next
-COPY --from=BUILD_STAGE /app/public ./public
+# Copy standalone output and static assets
+COPY --from=build /app/.next/standalone ./
+COPY --from=build /app/.next/static ./.next/static
+COPY --from=build /app/public ./public
 
 EXPOSE 3000
 
-CMD ["pnpm", "start"]
+CMD ["node", "server.js"]
