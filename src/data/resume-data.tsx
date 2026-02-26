@@ -40,18 +40,21 @@ export const RESUME_DATA = {
     {
       school: "Institute of Technology and Management, GIDA, Gorakhpur",
       degree: "B.Tech in Computer Science and Engineering with 69.5%",
+      link: "https://itmgkp.edu.in/",
       start: "Aug/2015",
       end: "June/2019",
     },
     {
       school: "Devasthaly Vidyapeeth Devasthaly, Ballia",
       degree: "Intermediate(CBSE) with 74.6%",
+      link: "https://devasthalyballia.com/",
       start: "April/2014",
       end: "June/2015"
     },
     {
       school: "Devasthaly Vidyapeeth Devasthaly, Ballia",
       degree: "High School(CBSE) with 9.6CGPA",
+      link: "https://devasthalyballia.com/",
       start: "April/2012",
       end: "March/2013"
     },
@@ -117,15 +120,16 @@ export const RESUME_DATA = {
     "Golang",
     "Python",
     "C#",
+    "AWS",
+    "MS Azure",
     "Graphql",
+    "gRPC",
     "Docker",
+    "Terraform",
     "Gorilla/Mux",
     "MySQL",
     "PostgreSQL",
     "NoSQL (DynamoDB)",
-    "AWS",
-    "MS Azure",
-    "Terraform",
     "DevOps",
     "Linux",
     "Git",
@@ -134,46 +138,30 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Risk Management Service",
-      techStack: [
-        "Client-Project/XEBIA",
-        "Golang",
-        "Gin",
-        "Docker",
-        "Grafana",
-        "Kafka",
-      ],
-      description: "Microservice to assess the risk occurring during a transaction from the \
-      user and label it as healthy/unhealthy by connecting with an external service provider.",
-      logo: XebiaLogo,
-      link: {
-        label: "xebia.com",
-        href: "https://xebia.com/apac",
-      },
-    },
-    {
-      title: "DWA",
-      techStack: ["Client-Project/TCS", "Golang", "MS Azure", "Web app", "Docker"],
-      description:
-        "REST API based web app exposing multiple endpoints for user and vehicle management",
-      logo: TCSLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://tcs.com/",
-      },
-    },
-    {
-      title: "Tutree web app",
-      techStack: ["Tutree", "Golang", "Python", "MySQL", "Docker", "Gorilla/mux", "Testing"],
-      description:
-        "Tutree is a human intelligence network. A tutor is only a tap away. In-person qualified tutors \
-        will come to your location of choice on demand.\
-        In this application my contribution is to make API’s using gorilla/mux, use data-structure and algorithms\
-        and optimize codebase, write unit test cases and bug fixing.",
-      logo: TutreeLogo,
+      title: "htmx-blog",
+      techStack: ["Personal Project", "Golang", "HTMX", "HTML"],
+      description: "Blog web app implemented using HTMX and Golang.",
       link: {
         label: "github.com",
-        href: "https://tutree.com",
+        href: "https://github.com/amren1254/htmx-blog",
+      },
+    },
+    {
+      title: "mini-projects",
+      techStack: ["Personal Project", "Golang"],
+      description: "A collection of mini-projects implemented in Golang.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/amren1254/mini-projects",
+      },
+    },
+    {
+      title: "blog",
+      techStack: ["Personal Project", "JavaScript", "React", "Next.js"],
+      description: "Blog application implemented by antigravity.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/amren1254/blog",
       },
     },
   ],

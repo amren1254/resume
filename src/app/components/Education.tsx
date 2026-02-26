@@ -32,7 +32,7 @@ interface EducationItemProps {
  * Individual education card component
  */
 function EducationItem({ education }: EducationItemProps) {
-  const { school, start, end, degree } = education;
+  const { school, start, end, degree, link } = education;
 
   return (
     <Card>
@@ -42,7 +42,18 @@ function EducationItem({ education }: EducationItemProps) {
             className="font-semibold leading-none"
             id={`education-${school.toLowerCase().replace(/\s+/g, "-")}`}
           >
-            {school}
+            {link ? (
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                {school}
+              </a>
+            ) : (
+              school
+            )}
           </h3>
           <EducationPeriod start={start} end={end} />
         </div>
